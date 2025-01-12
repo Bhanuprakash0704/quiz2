@@ -9,7 +9,7 @@ app = Flask(__name__)
 shuffled_questions = []
 
 # Path for local development
-file_path = r"C:\Users\aitha\OneDrive\Desktop\Quick_APP\yathifile.xlsx"
+file_path = "./yathifile.xlsx"
 
 print(f"Using file path: {file_path}")
 
